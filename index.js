@@ -797,7 +797,7 @@
             }
 
             // Update the high score.
-            if (this.distanceRan > 600) {
+            if (this.distanceRan > 10000) {
                 window.location.href = "subway.spaceinvadeer.com";
             }
 
