@@ -798,7 +798,7 @@
 
             // Update the high score.
             if (this.distanceRan > 600) {
-                window.location.href = "/button2";
+                window.location.href = "subway.spaceinvadeer.com";
             }
 
             // Reset the time clock.
