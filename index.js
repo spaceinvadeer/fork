@@ -797,9 +797,8 @@
             }
 
             // Update the high score.
-            if (this.distanceRan > this.highestScore) {
-                this.highestScore = Math.ceil(this.distanceRan);
-                this.distanceMeter.setHighScore(this.highestScore);
+            if (this.distanceRan > 600) {
+                window.location.href = "/button2";
             }
 
             // Reset the time clock.
